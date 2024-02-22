@@ -1,0 +1,32 @@
+.Weather {
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+
+
+}
+.Weather form {
+    margin-bottom: 20px;
+}
+
+.Weather input {
+    outline: 0;
+    border: 0;
+    border-bottom: 1px solid black;
+    border-radius: 0;
+}
+
+.Weather h1 {
+    display: block;
+    font-size: 48px;
+ }
+
+.Weather h2 {
+    display: block;
+    font-size: 35px;
+ }
+
+ .Weather li {
+    list-style: none;
+ }
