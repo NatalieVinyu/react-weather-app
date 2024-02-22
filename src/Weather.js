@@ -9,7 +9,7 @@ export default function Weather() {
                 <div className="row">
                     <div className="col-9">
                         <input type="search" placeholder="Enter city.." className="form-control"
-                        autoFocus="on" />
+                        autoFocus="off" />
                     </div>
                     <div className="col-3">
                         <input type="submit" value="Search" className="btn btn-primary" />

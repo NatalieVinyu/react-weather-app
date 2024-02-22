@@ -3,9 +3,9 @@
     border-radius: 5px;
     text-align: center;
     padding: 20px;
-
-
+    margin: 50px;
 }
+
 .Weather form {
     margin-bottom: 20px;
 }
@@ -29,4 +29,9 @@
 
  .Weather li {
     list-style: none;
+ }
+
+ .Weather img {
+    width: 150px;
+    height: auto;
  }
