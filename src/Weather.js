@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Date from "./Date";
 import axios from "axios";
 import "./Weather.css";
 
@@ -14,6 +15,7 @@ export default function Weather(props) {
             iconUrl: "https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png",
             wind: response.data.wind.speed,
             city: response.data.name,
+            date: new Date(response.data.dt * 1000)
             
         })
     }
@@ -35,13 +37,17 @@ export default function Weather(props) {
                     
                 </form>
                 <h2>{data.city}</h2>
+
                 <img src={data.iconUrl}
                 alt={data.description} />
-                <ul>
-                     <li className="temperature">{Math.round(data.temperature)}°C</li>
-                    <li>{data.humidity}%</li>
-                    <li>{data.wind}km/h</li> 
-                </ul>
+                <div className="Description">
+                    <span className="temp">{Math.round(data.temperature)}°C</span>
+                    <span>
+                        <Date date={data.date} />
+                    </span>
+                    <span>Humidity: {data.humidity}%</span>
+                    <span>{data.description} | {data.wind}km/h</span> 
+                </div>
             </div>
         )
     } else {
