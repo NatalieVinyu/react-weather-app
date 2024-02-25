@@ -10,7 +10,7 @@ function App() {
         <Weather defaultCity = "Tokyo"/>
         <footer>
           This project was coded by Natalie Vinyu and is {" "}
-          <a href="https://github.com/NatalieVinyu/react-weather-app" target="_blank"> open-sourced on GitHub</a>
+          <a href="https://github.com/NatalieVinyu/react-weather-app" rel="noreferrer" target="_blank"> open-sourced on GitHub</a>
         </footer>
         </div>
     </div>
