@@ -1,0 +1,24 @@
+body {
+    background: linear-gradient(
+      102.7deg,
+      rgb(210, 230, 181) 8.2%,
+      rgb(193, 219, 155) 19.6%,
+      rgb(177, 207, 134) 36.8%,
+      rgb(160, 193, 114) 73.2%,
+      rgb(142, 177, 92) 90.9%
+    );
+  }
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  #root {
+    height: 100vh;
+  }
+  @media (max-width: 768px) {
+    #root {
+      height: 100%;
+    }
+  }

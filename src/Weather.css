@@ -1,5 +1,5 @@
 .Weather {
-    background-color: #d2e6b5;
+    background-color: #fff;
     border-radius: 20px;
     padding: 20px;
     margin-top: 50px ;
@@ -26,7 +26,6 @@ input.search {
     padding: 5px;
     border-bottom: 3px solid green;
     border-radius: 0;
-    background-color: #d2e6b5;
     width: 50%;
     cursor: auto;
 
