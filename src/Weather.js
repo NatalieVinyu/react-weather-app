@@ -69,5 +69,4 @@ export default function Weather(props) {
             visible={true}
         />)
     }
-
 }
