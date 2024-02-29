@@ -1,5 +1,12 @@
 .WeatherForecast {
     text-align: center;
+    background-color: #b1cf86;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.WeatherForecast div {
+    padding: 5px;
 }
 
 .WeatherForecast-temperature-min {

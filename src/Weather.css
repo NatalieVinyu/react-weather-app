@@ -1,24 +1,53 @@
 .Weather {
-    border: 1px solid black;
-    border-radius: 5px;
+    background-color: #d2e6b5;
+    border-radius: 20px;
     padding: 20px;
-    margin: 50px 0px;
+    margin-top: 50px ;
 }
 
 .Weather form {
     margin-bottom: 20px;
 }
 
-.Weather input {
-    outline: 0;
-    border: 0;
-    border-bottom: 1px solid black;
-    border-radius: 0;
+div.col {
+    display: flex;
+    justify-content: center;
 }
+
+.searchBar {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+input.search {
+    outline: none;
+    border: none;
+    padding: 5px;
+    border-bottom: 3px solid green;
+    border-radius: 0;
+    background-color: #d2e6b5;
+    width: 50%;
+    cursor: auto;
+
+}
+
+input.btn {
+    color: black;
+    background-color: #b1cf86;
+    border: none;
+    padding: 10px;
+    margin-left: 25px;
+}
+
+input.btn:hover {
+    background-color: #a0c172;
+}
+
 
 .Weather h1 {
     display: block;
-    font-size: 48px;
+    font-size: 50px;
     text-align: center;
 
  }
@@ -48,4 +77,8 @@
 
 .temp {
     font-size: 50px;
+}
+
+.WeatherInfo {
+    padding: 10px;
 }

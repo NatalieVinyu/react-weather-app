@@ -44,18 +44,14 @@ export default function Weather(props) {
             <div className="Weather">
                 <h1>Weather App</h1>
                 <form onSubmit={handleSubmit}>
-                    <div className="row">
-                        <div className="col-9">
-                            <input type="search" placeholder="Enter city.." className="form-control"
+                    <div className="searchBar">
+                            <input type="search" placeholder="Enter city.." className="search"
                             autoFocus="off"
                             onChange={handleCityChange} />
-                        </div>
-                        <div className="col-3">
-                            <input type="submit" value="Search" className="btn btn-primary" />
-                        </div>
+                            <input type="submit" value="Search" className="btn" />
                     </div>
-                    
                 </form>
+
                 <WeatherInfo info={data} />
                 <WeatherForecast coordinates={data.coordinates} />
             </div>
@@ -64,8 +60,8 @@ export default function Weather(props) {
         search();
         return (
         <Hearts
-            height="80"
-            width="80"
+            height="200"
+            width="200"
             color="#b1cf86"
             ariaLabel="hearts-loading"
             wrapperStyle={{}}
