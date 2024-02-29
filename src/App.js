@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <div className="container" >
-        <Weather defaultCity = "Tokyo"/>
+        <Weather defaultCity = "Johannesburg"/>
         <footer>
           This project was coded by Natalie Vinyu and is {" "}
           <a href="https://github.com/NatalieVinyu/react-weather-app" rel="noreferrer" target="_blank"> open-sourced on GitHub</a>
