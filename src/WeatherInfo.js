@@ -16,9 +16,9 @@ export default function WeatherInfo(props) {
 
             <div className="Description">
                 <span className="temp">{Math.round(props.info.temperature)}°C</span>
-                <span>
+                <span><strong>
                     <Date date={props.info.date} />
-                </span>
+                    </strong></span>
                 <span>Humidity: {props.info.humidity}%</span>
                 <span>{props.info.description} | {props.info.wind}km/h</span> 
             </div>
