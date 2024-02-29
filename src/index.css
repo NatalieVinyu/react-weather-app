@@ -14,9 +14,11 @@ body {
     padding: 0;
     box-sizing: border-box;
   }
+
   #root {
     height: 100vh;
   }
+  
   @media (max-width: 768px) {
     #root {
       height: 100%;
