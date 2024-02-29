@@ -46,8 +46,7 @@ export default function WeatherForecast(props) {
         
     } else {
         load()
-        
     }
 }
 
-//https://api.openweathermap.org/data/2.5/forecast?lat=35.6&lon=139.6&appid=77cb0df8b340d241d54524527e9a1295
+
